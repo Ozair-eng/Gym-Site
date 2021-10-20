@@ -1,0 +1,148 @@
+/* body css */
+body{
+    background:url('images/fitness-1882721_1920.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+/* left box style for logo */
+.left{
+    /* border:2px solid yellow; */
+    color:#a3a3a3;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+}
+/* mid box style for navbar */
+.mid{
+    /* border:2px solid white; */
+    color:white;
+    display:block;
+    width: 36%;
+    top: 20px;
+    margin: 1% auto;
+
+}
+/* right box style for button */
+.right{
+    /* border:2px solid red; */
+    color:red;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 28px;
+
+
+}
+/* logo here */
+/* .left img{
+    filter: invert(100%);
+    width:100px;
+} */
+.left a{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    color: #a3a3a3;
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing:1px;
+}
+.left a:hover{
+    color:white;
+    letter-spacing: 5px;
+    transition: 0.5s;
+}
+/* navbar syiling starts here */
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color:rgb(175 175 175);
+    text-decoration: none;
+    padding:20px 18px;
+    font-weight: bold;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    transition:all 0.5s;
+}
+.navbar li a:hover{
+    text-decoration: none;
+    color: white;
+    letter-spacing:0.5px;
+}
+.navbar li a.active{
+    color:#ffa501;
+    letter-spacing:1px;
+}
+
+/* right box button styles */
+.btn{
+    margin: 3px;
+    background: inherit;
+    color: #a3a3a3;
+    padding: 7px 9px;
+    border: none;
+    border-radius: 21px;
+    font-size: 23px;
+    font-family: 'Staatliches', cursive;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn:hover{
+    text-decoration: none;
+    color: white;
+    transform: scale(1.2);
+}
+/* form css starts here */
+.container{
+    margin: 108px 84px;
+    padding: 19px;
+    border: 3px solid white;
+    display: inline-block;
+    width: 44%;
+    border-radius: 15px;
+}
+.form-group input{
+    padding: 2px;
+    margin: 8px 10%;
+    text-align: center;
+    width: 80%;
+    font-size: 19px;
+    background: inherit;
+    border:4px solid white;
+    border-radius: 6px;
+    color:aliceblue;
+    font-family: 'Staatliches', cursive;
+    letter-spacing:3px
+}
+.container h1{
+    color: white;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    letter-spacing:3px
+
+}
+::placeholder{
+color: rgb(255, 255, 255);
+  opacity: 1;
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+ .container button {
+    display: block;
+    border: 1px solid white;
+    width: 33%;
+    margin: auto;
+    margin-top:15px;
+    font-size:25px;
+    color: #efefef;
+ }
